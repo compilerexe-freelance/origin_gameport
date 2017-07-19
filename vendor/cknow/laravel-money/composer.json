@@ -1,0 +1,45 @@
+{
+  "name": "cknow/laravel-money",
+  "description": "Laravel Money",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "money",
+    "currency"
+  ],
+  "homepage": "https://github.com/cknow/laravel-money",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Gobbo de Souza",
+      "email": "ricardogobbosouza@yahoo.com.br",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "ricardo@clicknow.com.br",
+    "issues": "https://github.com/cknow/laravel-money/issues",
+    "source": "https://github.com/cknow/laravel-money"
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "~5.1",
+    "illuminate/view": "~5.1"
+  },
+  "require-dev": {
+    "mockery/mockery": "~0.9",
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "files": [
+      "src/ClickNow/Money/helpers.php"
+    ],
+    "psr-4": {
+      "ClickNow\\": "src/ClickNow"
+    }
+  },
+  "suggest": {
+    "ext-intl": "Required to use NumberFormatter."
+  },
+  "minimum-stability": "stable"
+}
